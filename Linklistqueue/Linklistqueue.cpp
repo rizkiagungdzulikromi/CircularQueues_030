@@ -98,3 +98,33 @@ public:
 		}
 	}
 };
+int main() {
+	Queues q;
+	char ch;
+
+
+	while (true) {
+		try {
+			cout << "menu" << endl;
+			cout << "1. Iplement insert oprator" << endl;
+			cout << "2. Iplement delete optration" << endl;
+			cout << "3. Display values" << endl;
+			cout << "4. Exit" << endl;
+			cout << "Enter your choice (1_4): ";
+			cin >> ch;
+			cout << endl;
+
+			switch (ch) {
+			case'1 ': {
+				q.insert();
+				break;
+			}
+			case'2 ': {
+				q.remove();
+				break;
+			}
+
+			}
+		}
+	}
+}
